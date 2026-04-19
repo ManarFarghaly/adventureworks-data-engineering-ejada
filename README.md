@@ -88,7 +88,9 @@ Built using Power BI on top of the Data Warehouse:
 adventureworks-data-engineering-ejada/
 │
 
-├── olap/                         # Visual Studio SSIS Project
+# Visual Studio SSIS Project
+
+├── olap/                         
 
 │   ├── AdventureWorks_OLAP.sln
 
