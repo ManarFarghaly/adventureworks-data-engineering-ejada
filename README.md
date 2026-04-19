@@ -87,35 +87,65 @@ Built using Power BI on top of the Data Warehouse:
 
 adventureworks-data-engineering-ejada/
 │
+
 ├── olap/                         # Visual Studio SSIS Project
+
 │   ├── AdventureWorks_OLAP.sln
+
 │   ├── AdventureWorks_OLAP.dtproj
+
 │   ├── Project.params
+
 │   ├── Load_DW_Pipeline.dtsx
+
 │   ├── *.conmgr
+
 │   └── (other SSIS-related files)
+
 │
+
 ├── database/
+
 │   ├── backup/
+
 │   │   └── AdventureWorksDW.bak
+
 │   ├── schema/
+
 │   │   ├── create_tables.sql
+
 │   │   ├── dimensions.sql
+
 │   │   └── facts.sql
+
 │
+
 ├── powerbi/
+
 │   └── AdventureWorks_Insights.pbix
+
 │
+
 ├── presentation/
+
 │   └── ManarFarghaly_AdventureWorks.pptx
+
 │
+
 ├── docs/
+
 │   ├── Pipeline-Flow.png
+
 │   ├──Full-ETL-Pipeline.png
+
 │   ├── Results of OLAP.png
+
 │   ├── Results of OLTP.png
+
 │
+
 ├── README.md
+
 └── .gitignore
 
 ---
