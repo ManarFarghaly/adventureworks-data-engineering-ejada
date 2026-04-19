@@ -86,16 +86,27 @@ Built using Power BI on top of the Data Warehouse:
 ## Project Structure
 
 ├── data-warehouse/
+
 │ ├── schema.sql
+
 │ └── tables/
+
 ├── etl/
+
 │ ├── ssis-packages/
+
 │ └── scripts/
+
 ├── powerbi/
+
 │ └── dashboard.pbix
+
 ├── docs/
+
 │ ├── architecture.png
+
 │ └── pipeline.png
+
 └── README.md
 
 ---
